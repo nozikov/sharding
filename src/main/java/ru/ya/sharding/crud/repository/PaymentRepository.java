@@ -9,6 +9,4 @@ import ru.ya.sharding.model.User;
 public interface PaymentRepository extends CrudRepository<Payment, Long> {
 
   int findPaymentsBySender(User user);
-
-
 }
