@@ -29,5 +29,4 @@ public class PaymentController {
   public void savePayments(@PathVariable List<Payment> payments) {
     paymentService.savePayments(payments);
   }
-
 }
