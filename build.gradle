@@ -20,7 +20,8 @@ dependencies {
     compile group: 'org.hibernate', name: 'hibernate-core', version: '5.4.10.Final'
     compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.4.10.Final'
 
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.2.4.RELEASE'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.3.1'
 
     compileOnly('org.projectlombok:lombok:1.18.10')
 }
